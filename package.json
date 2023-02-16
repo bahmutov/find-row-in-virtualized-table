@@ -9,8 +9,6 @@
     "@mui/icons-material": "5.11.9",
     "@mui/material": "5.11.9",
     "@mui/x-data-grid": "5.17.24",
-    "@mui/x-data-grid-generator": "5.17.24",
-    "@mui/x-data-grid-pro": "5.17.24",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "react": "18.2.0",
