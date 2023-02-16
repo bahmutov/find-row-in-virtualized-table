@@ -1,15 +1,9 @@
-import * as React from 'react';
-import { DataGrid } from '@mui/x-data-grid';
-import { useDemoData } from '@mui/x-data-grid-generator';
+import * as React from 'react'
+import { DataGrid } from '@mui/x-data-grid'
+import data from './table.json'
 
 export default function PageSizeCustomOptions() {
-  const [pageSize, setPageSize] = React.useState<number>(5);
-
-  const { data } = useDemoData({
-    dataSet: 'Commodity',
-    rowLength: 100,
-    maxColumns: 6,
-  });
+  const [pageSize, setPageSize] = React.useState<number>(5)
 
   return (
     <div style={{ height: 400, width: '100%' }}>
@@ -21,5 +15,5 @@ export default function PageSizeCustomOptions() {
         {...data}
       />
     </div>
-  );
+  )
 }
